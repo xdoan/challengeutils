@@ -27,8 +27,8 @@ To copy over the template synapseutils.copyWiki() function is used with
 template id as source and new challenge project entity synId as destination.
 '''
 # DREAM_CHALLENGE_TEMPLATE_SYNID = "syn2769515"  # Template 1.0
-DREAM_CHALLENGE_TEMPLATE_SYNID = "syn18058986"  # Template 2.0
-
+# DREAM_CHALLENGE_TEMPLATE_SYNID = "syn18058986"  # Template 2.0
+DREAM_CHALLENGE_TEMPLATE_SYNID = "syn12105406" ### 2018 miniDream project as Template
 
 def create_project(syn, project_name):
     '''
