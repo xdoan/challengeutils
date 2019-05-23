@@ -7,7 +7,7 @@ The `challengeutils` package provides an interface for managing Sage Bionetworks
 ## Install
 
 ```
-pip install git+https://github.com/Sage-Bionetworks/challengeutils.git
+pip install git+https://github.com/xdoan/challengeutils.git
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ challengeutils -h
 
 **Creating Challenge Templates**
 
-To begin all challenge infrastructure, you will want to create several Projects, and Teams.  This script pulls from a standard DREAM template and creates the Projects and Teams that you will need for a challenge. 
+To begin all challenge infrastructure, you will want to create several Projects, and Teams.  This script pulls from the 2018 miniDream synapse project.
 
 ```
 challengeutils createchallenge "Challenge Name Here"
